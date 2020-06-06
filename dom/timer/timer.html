@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="timer.css">
-    <script src="timer-dom.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
     <main id="timer">
-        <p>0:00</p>
+        <p><label id='minutes'>0</label>:<label id='seconds'>00</label></p>
         <div class=timer-buttons>
-            <button>Start</button>
-            <button>Stop</button>
-            <button>Reset</button>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
         </div>
     </main>
 </body>
+<script src="timer-dom.js"></script>
 </html>
